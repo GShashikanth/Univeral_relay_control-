@@ -14,11 +14,11 @@ PubSubClient client(espClient);
 aREST rest = aREST(client);
 
 // Unique ID to identify the device for cloud.arest.io
-const char* device_id = "a82023";
+const char* device_id = "xxxxxx";
 
 // WiFi parameters
-const char* ssid = "AJAI_Testing";
-const char* password = "Adso@4321";
+const char* ssid = "xxxx";
+const char* password = "xxxxx";
 
 
 const char* out_topic;
