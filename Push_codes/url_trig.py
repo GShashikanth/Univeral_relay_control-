@@ -6,9 +6,9 @@ session = requests.Session()
 session.trust_env = False
 # response = session.get("https://cloud.arest.io/a82023/digital/2/1") #optional 
 def on():
-    response = session.get("https://cloud.arest.io/a82023/digital/2/0") #
+    response = session.get("https://cloud.arest.io/xxxxxx/digital/2/0") #
 def off():
-    response = session.get("https://cloud.arest.io/a82023/digital/2/1")
+    response = session.get("https://cloud.arest.io/xxxxxx/digital/2/1")
 
 
 window= Tk()
